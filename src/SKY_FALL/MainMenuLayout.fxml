@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane id="MainMenuBackgr" prefHeight="768" prefWidth="1366 " xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SKY_FALL.Controller">
+   <children>
+    <VBox alignment="CENTER" spacing="30">
+        <Button id="PlayBtn" fx:id="PlayBtn" onAction="#play" prefHeight="31.0" prefWidth="123.0" text="Play">
+          
+        </Button>
+         <Button fx:id="HowtoPlayBtn" onAction="#howtoPlay" prefHeight="31.0" prefWidth="123.0" text="How to play">
+        
+        </Button>
+         <Button prefHeight="31.0" prefWidth="123.0" text="Option">
+        
+        </Button>
+         <Button prefHeight="31.0" prefWidth="123.0" text="High Scores">
+        
+        </Button>
+         <Button fx:id="ExitBtn" onAction="#exit" prefHeight="31.0" prefWidth="123.0" text="Exit">
+        
+        </Button>
+    </VBox>
+   </children>
+</StackPane>

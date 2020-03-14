@@ -1,0 +1,10 @@
+#MainMenuBackgr{
+     -fx-background-image:url("MainMenuBackgr.jpg");
+}
+#PlayBtn{
+    -fx-background-image: url("ButtonBackgr.png");
+        
+}
+#HowtoPlayBackgr{
+     -fx-background-image:url("MainMenuBackgr.jpg");
+}

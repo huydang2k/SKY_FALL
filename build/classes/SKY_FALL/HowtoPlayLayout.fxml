@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<StackPane id="HowtoPlayBackgr" prefHeight="768" prefWidth="1366" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SKY_FALL.Controller">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="MainMenuBtn1" onAction="#backToMainMenu1" layoutX="1176.0" layoutY="45.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="142.0" text="Main Menu">
+               <font>
+                  <Font name="Corbel Light" size="23.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</StackPane>
